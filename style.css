@@ -6,9 +6,10 @@ CSS for NYSL site
 
 body {
 
- font-family: sans-serif, Verdana, Helvetica;
+ font-family: Verdana, Helvetica, sans-serif;
+ font-size: 20px;
 
- line-height: 125%;
+ line-height: 200%;
 
  padding: 15px;
  
@@ -18,16 +19,34 @@ body {
 h1 {
 
  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
- font-size: x-large;
+ font-size: 80px;
  
 
 }
 
 li {
 
- font-size: small;
+ font-size: 15px;
 
 }
+
+h2 {
+
+ color: green;
+
+ font-size: 30px;
+
+ font-weight: bold;
+
+}
+
+p {
+
+ font-size: 15px;
+
+
+}
+
 
 
  
