@@ -8,6 +8,7 @@ body {
 
  font-family: Verdana, Helvetica, sans-serif;
  font-size: 20px;
+ background-color: rgb(248,248,248);
 
  line-height: 200%;
 
@@ -19,12 +20,12 @@ body {
 h1 {
 
  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
- font-size: 80px;
+ font-size: 70px;
  
 
 }
 
-li {
+ul {
 
  font-size: 15px;
 
@@ -32,7 +33,7 @@ li {
 
 h2 {
 
- color: green;
+ color: black;
 
  font-size: 30px;
 
@@ -46,6 +47,60 @@ p {
 
 
 }
+
+a {
+
+
+ color: green;
+
+}
+
+a:hover {
+
+ color: grey;
+}
+
+section {
+	width: 1200px;
+}
+
+
+
+ 
+#header{
+	flex: auto;
+}
+
+img {
+	max-width: 100%;
+	float: left;
+	padding: 0px;
+	border-radius: 5px;
+  	display: block;
+  	margin-left: 10px;
+  	margin-right: 30px;
+  	margin-top: 60px;
+}
+
+#logo {
+	max-width: 100%;
+	margin: 0;
+	border-radius: 3px;
+  	display: block;
+  	margin-right: 40px;
+  	margin-left: 40px;
+
+}
+
+.flexheadercontainer {
+	display: flex;
+}
+
+ 
+
+
+
+ 
 
 
 
