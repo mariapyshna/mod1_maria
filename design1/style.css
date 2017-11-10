@@ -1,223 +1,204 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+        /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
 
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
 
+    body {
+        line-height: 1;
+    }
 
+    ol,
+    ul {
+        list-style: none;
+    }
 
+    blockquote,
+    q {
+        quotes: none;
+    }
 
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
 
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-
-
-
-
-
-
-/* Begging of my code*/
-
-body {
-
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: rgb(248, 248, 248);
-
-    line-height: 200%;
-
-    padding: 15px;
-}
-
-h1 {
-
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 80px;
-    width: 100%;
-    padding: 10px;
-}
-
-#heading {
-    width: 100%;
-    height: 463px;
-    float: center;
-    margin: 10px;
-    background-image: url("design1_image1.jpeg");
-    background-position: left top;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
-    background height: 850px;
-
-
-    background z-index: -1;
-    display: flex;
-}
-
-.h2andlogo {
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
     
-    float: bottom, left;
-    height: 50px;
+
+
+
+
+
+
+
+
+
+    /* Begging of my code*/
+
+    body {
+
+        background-color: rgb(248, 248, 248);
+        
+        margin: 0;
+
+    }
+
+
+    h1 {
+        font-family: Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: bold;
+        color: white;
+    }
+
+
+    #headingandimage {
+        height: 405px;
+        width: 1100px;
+        margin: 0px 10px 15px 160px;
+        background-image: url("design1_image1.jpeg");
+        background-size: cover;
+
+    
+
+}
+       
+
+
+#text {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    
 }
 
-ul {
-
-    font-size: 15px;
-    vertical-align: top;
-}
-
-h2 {
+#h2 {
 
     color: white;
 
-    font-size: 30px;
+    font-size: 40px;
 
     font-weight: bold;
     background: black;
-    float: bottom;
+    text-align: center;
 
-    position: center;
+   
 }
 
 h3 {
     font-weight: bold;
 }
 
-p {
-
-    font-size: 15px;
-}
 
 a {
 
@@ -228,24 +209,18 @@ a {
 a:hover {
 
     color: grey;
+
 }
 
-section {
-    width: 1200px;
+a:active {
+    text-decoration: none;
 }
 
 
+    
 
 
-#header {
-    flex: auto;
-}
 
-#photo {
-    float: top;
-    margin: 0;
-    opacity: 0.9;
-}
 
 
 
@@ -259,10 +234,17 @@ section {
 }
 
 #logo:hover {
-    opacity: 0.8;
+           opacity: 0.8;
     filter: alpha(opacity=70);
 }
 
-.flexheadercontainer {
-    display: flex;
+
+
+.mainnavigation {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 20px;
+    line-height: 70px;
 }
+
