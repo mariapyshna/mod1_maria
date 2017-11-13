@@ -187,7 +187,7 @@
     
 }
 
- #linktohome {
+ #linktohomegreen {
     background: green;
     color: white;
     padding: 5px;
@@ -198,7 +198,29 @@
     
 }
 
-#linktoabout {
+#linktoaboutgreen {
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+     border-style: outset;
+    border-color: black;
+    border-width: 3px;
+}
+
+#linktocontactgreen{
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+     border-style: outset;
+    border-color: black;
+    border-width: 3px;
+}
+
+
+
+#linktoaboutblue {
     background: blue;
     color: white;
     padding: 5px;
@@ -209,7 +231,7 @@
 
 }
 
-#linktocontact {
+#linktocontactblue {
     background: blue;
     color: white;
     padding: 5px;
@@ -217,6 +239,17 @@
      border-style: outset;
     border-color: black;
     border-width: 3px;
+}
+
+ #linktohomeblue {
+    background: blue;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border-style: outset;
+    border-color: black;
+    border-width: 3px;
+    
 }
 
 
@@ -391,12 +424,13 @@
             line-height: 50px;
             position: right;
             margin-left: 100px;
+            padding-top: 50px;
            
            /* display: flex;*/
             /*flex-flow: column;*/
         }
 
         #contact {
-          padding-top: 25px;
+          padding-top: 50px;
 
         }
