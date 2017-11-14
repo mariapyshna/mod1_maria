@@ -139,6 +139,10 @@
 body {
 
             margin: 30px 20px 50px 20px;
+            padding-bottom: 30px;
+              border-style: solid;
+     border-color: black;
+     border-width: 1px;
 
            
         }
@@ -148,23 +152,25 @@ body {
 
         h1 {
             font-style: "Times New Roman";
-            font-size: 70px;
+            font-size: 80px;
             font-weight: bold;
             color: black;
             padding-bottom: 5px;
-            position: fixed;
-            left: 180px;
+            position: absolute;
+            left: 170px;
             top: 60px;
         }
 
-#logoandh1 {}
+
        
 
 
 
    #logo {
     opacity: 1;
-   /* position: fixed;*/
+    padding-top: 10px;
+    padding-left: 15px;
+  
 
    }
 
@@ -185,7 +191,7 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-     margin-right: 295px;
+     margin-right: 150px;
       
   
   
@@ -214,6 +220,7 @@ a {
 
 a:hover {           opacity: 0.6;
             filter: alpha(opacity=70);
+            color: green;
         }
 
 
@@ -232,12 +239,16 @@ a:hover {           opacity: 0.6;
 #pagecontent {
 
      margin-left: 145px;
+    /* border-style: solid;
+     border-color: black;
+     border-width: 1px;*/
   /*   margin-right: 363px;*/
 
 }
     
 #photoandtext {
      display: flex;
+
     
 
 }
@@ -245,14 +256,17 @@ a:hover {           opacity: 0.6;
 ul.dates {
    
     line-height: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: left;
+
 }
 
 
 .event {
     text-align: left;
     padding-left: 30px;
+      font-size: 25px;
+
 
 
 }
@@ -260,10 +274,50 @@ ul.dates {
     text-align: left;
     font-weight: bold;
     padding-left: 30px;
+
+    font-size: 20px;
+
+  
   /*  padding-top: 10px;*/
 }
 
 #upcomingevents {
     font-weight: bold;
-    padding-right: 25px;
+    font-size: 22px;
+    
 }
+
+
+#text {
+    line-height: 25px;
+    padding-left: 8px;
+    
+    
+
+
+}
+
+
+#contact {
+    font-size: 25px;
+    line-height: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+
+p {
+    padding-right: 150px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
