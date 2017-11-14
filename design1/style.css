@@ -143,6 +143,7 @@
             background-color: rgb(248, 248, 248);
             margin: 80px 10px 50px 10px;
 
+
            
         }
 
@@ -217,18 +218,23 @@
    }
 
 
+   h5 {
+    font-weight: bold;
+   }
+
+
 .homepagecontent {
             
           /*  margin: 0;*/
             display: flex;
             text-align: left;
 
-            padding right: 40px;
+            padding right: 20px;
           /*  padding-left: 40px;*/
            
             font-size: 20px;
             line-height: 150px;
-         /*   flex-flow: column-wrap;*/
+         
             
         }
 
@@ -346,4 +352,5 @@
 
         ol {
             list-style: decimal;
+                text-justify: distribute;
         }
