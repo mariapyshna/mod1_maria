@@ -156,7 +156,7 @@
            padding-bottom: 5px;
            position: absolute;
            left: 170px;
-           top: 60px;
+           top: 40px;
        }
 
 
@@ -259,7 +259,7 @@
        .event {
            text-align: left;
            padding-left: 30px;
-           font-size: 25px;
+           font-size: 20px;
        }
 
        .month {
@@ -281,15 +281,15 @@
 
        #text {
            line-height: 25px;
-           padding-left: 8px;
+           padding: 10px;
+
        }
 
 
        #contact {
            font-size: 25px;
            line-height: 50px;
-           padding-left: 30px;
-           padding-top: 20px;
+           padding: 10px;
        }
 
 
@@ -301,7 +301,7 @@
        }
 
        p {
-           padding-right: 150px;
+           padding-right: 10px;
            padding-left: 10px;
-           font-size: 17px;
+           font-size: 18px;
        }
