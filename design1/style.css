@@ -236,7 +236,7 @@
            display: flex;
            text-align: left;
            padding right: 40px;
-           
+
            font-size: 20px;
            line-height: 150px;
            margin-right: 150px;
@@ -246,10 +246,10 @@
 
        .contactcontent {
            display: flex;
-           
+
            text-align: left;
            padding right: 40px;
-          
+
            font-size: 20px;
            line-height: 30px;
 
@@ -350,16 +350,18 @@
        table {
            table-layout: fixed;
            border-collapse: collapse;
-           width: 800px;
+           width: 930px;
        }
 
        td {
-           border: 1px solid black;
-           padding: 0px;
-           border-spacing: 2px;
-        /*   text-align: center;*/
+
+
+
+           /*   text-align: center;*/
            vertical-align: middle;
        }
+
+
 
 
 
@@ -367,14 +369,69 @@
            height: 20px;
        }
 
+     
+
        th {
-           border: 1px solid black;
-           padding: 5px;
+
+           padding: 0px;
            border-spacing: 2px;
-           /*text-align: center;*/
-           height: 20px;
+
+           height: 25px;
+       }
+
+
+
+       #september {
+           text-align: center;
+           margin-bottom: 30px;
+       }
+
+
+       #october {
+           text-align: center;
+            margin-bottom: 60px;
+       }
+
+       .loc {
+           text-align: left;
+       }
+
+       caption {
+           text-align: left;
+           padding-top: 30px;
+           padding-bottom: 40px;
+           font-style: italic;
+           text-decoration: underline;
+           margin-left: 50px;
+       }
+
+       #fall {
+           padding-top: 20px;
+           margin-left: 50px;
+           font-style: italic;
+       }
+
+       #bottompart {
+           padding-top: 40px;
+           line-height: 50px;
+           margin-left: 60px;
+           margin-right: 70px;
        }
 
        #places {
-        text-align: left;
+           text-align: left;
+
+           padding-bottom: 60px;
+           margin-left: 60px;
+
        }
+
+#contactinfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
