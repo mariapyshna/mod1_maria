@@ -446,6 +446,14 @@
 
 }
 
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid black;
+}
 
 
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
 
