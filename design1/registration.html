@@ -48,7 +48,8 @@
             <input type="text" name="birth_date"> Gender:
             <input type="radio" name="gender" value="Female"> Female
             <input type="radio" name="gender" value="Male"> Male</br>
-            Grade: <input type="text" name="grade">
+            Grade:
+            <input type="text" name="grade">
             <input type="checkbox" name="grade" value="pre-schooll"> Pre-School
             <input type="radio" name="grade" value="1st">1<sup>st</sup>
             <input type="radio" name="grade" value="2nd">2<sup>nd</sup>
@@ -66,40 +67,32 @@
             <table>
                 <thead>
                     <tr>
-                        <td colspan="2">First Closest School:</td>
+                        <td>First Closest School: </td>
                         <td>Second Closest School:</td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <input type="checkbox" name="first_school"> AJ Katzenmaier </td>
+                            <select name="first-school">
+                                <option value="AJK"> AJ Katzenmaier </option>
+                                <option value="MPH"> Marjorie P Hart </option>
+                                <option value="G"> Greenbay </option>
+                                <option value="NE"> North Elementary </option>
+                                <option value="HAY"> Howard A Yeager </option>
+                                <option value="SE"> South Elementary </option>
+                            </select>
+                        </td>
                         <td>
-                            <input type="checkbox" name="first_school"> Marjorie P Hart </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> AJ Katzenmaier </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> Marjorie P Hart </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="first_school"> Greenbay </td>
-                        <td>
-                            <input type="checkbox" name="first_school"> North Elementary </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> Greenbay </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> North Elementary </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="first_school"> Howard A Yeager </td>
-                        <td>
-                            <input type="checkbox" name="first_school"> South Elementary </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> Howard A Yeager </td>
-                        <td>
-                            <input type="checkbox" name="2_school"> South Elementary </td>
+                            <select name="second-school">
+                                <option value="AJK"> AJ Katzenmaier </option>
+                                <option value="MPH"> Marjorie P Hart </option>
+                                <option value="G"> Greenbay </option>
+                                <option value="NE"> North Elementary </option>
+                                <option value="HAY"> Howard A Yeager </option>
+                                <option value="SE"> South Elementary </option>
+                            </select>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -187,9 +180,10 @@
                 Parent/Guardian Signature:
                 <input type="text"> Date:
                 <input type="text">
-            </div>      
-            <input type="submit">
+            </div>
+            <input id="submit-button" type="submit">
         </form>
     </div>
 </body>
+
 </html>
