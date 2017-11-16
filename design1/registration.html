@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div id="wholepage" <header class="header">
+    <header>
         <div id="headingandimage">
             <h1>Northside Youth Soccer League</h1>
         </div>
@@ -18,9 +18,8 @@
             </a>
         </div>
         <div id="h2">
-            <h2>Register</h2>
+            <h2>Register Now</h2>
         </div>
-    </div>
     </header>
     <div class="homepagecontent">
         <aside id="mainnavigation">
@@ -47,15 +46,15 @@
             </br>
             Birth Date (mm/dd/yyyy)
             <input type="text" name="birth_date"> Gender:
-            <input type="checkbox" name="gender" value="Female"> Female
-            <input type="checkbox" name="gender" value="Male"> Male</br>
-            Grade:
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Male"> Male</br>
+            Grade: <input type="text" name="grade">
             <input type="checkbox" name="grade" value="pre-schooll"> Pre-School
-            <input type="checkbox" name="grade" value="1st">1<sup>st</sup>
-            <input type="checkbox" name="grade" value="2nd">2<sup>nd</sup>
-            <input type="checkbox" name="grade" value="2nd">3<sup>rd</sup>
-            <input type="checkbox" name="grade" value="2nd">4<sup>th</sup>
-            <input type="checkbox" name="grade" value="2nd">5<sup>th</sup>
+            <input type="radio" name="grade" value="1st">1<sup>st</sup>
+            <input type="radio" name="grade" value="2nd">2<sup>nd</sup>
+            <input type="radio" name="grade" value="2nd">3<sup>rd</sup>
+            <input type="radio" name="grade" value="2nd">4<sup>th</sup>
+            <input type="radio" name="grade" value="2nd">5<sup>th</sup>
             </br>
             Parent/Guardian
             <input type="text" name="parent">
@@ -183,9 +182,14 @@
             </table>
             <h6> Permission to play</h6>
             <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
-            <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+            <p>By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
             <div id="formfooter">
-                Parent/Guardian Signature:<input type="text">
-                Date: <input type="text">
-            </div>
+                Parent/Guardian Signature:
+                <input type="text"> Date:
+                <input type="text">
+            </div>      
+            <input type="submit">
         </form>
+    </div>
+</body>
+</html>
