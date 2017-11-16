@@ -426,7 +426,7 @@
        }
 
        #bottompart {
-           padding-top: 40px;
+           
            line-height: 50px;
            margin-left: 60px;
            margin-right: 70px;
@@ -435,7 +435,7 @@
        #places {
            text-align: left;
 
-           padding-bottom: 60px;
+           
            margin-left: 60px;
 
        }
@@ -459,4 +459,6 @@ sup {
 
 .map {
   height: 264px;
+  padding-top: 15px;
+  padding-bottom: 70px;
 }
