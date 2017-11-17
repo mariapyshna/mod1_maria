@@ -137,7 +137,7 @@
 
        body {
 
-           background-color: rgb(248, 248, 248);
+           
            margin: 80px 10px 50px 10px;
            font-family: sans-serif;
        }
@@ -175,8 +175,7 @@
            background: black;
            text-align: center;
            padding: 4px;
-           /*margin-left: 160px;
-            margin-right: 180px;*/
+          
        }
 
        h3 {
@@ -203,7 +202,7 @@
        h4 {
            text-align: center;
            padding: 50px;
-          
+
            font-size: 24px;
        }
 
@@ -211,7 +210,6 @@
        h5 {
            font-weight: bold;
            line-height: 0;
-          
        }
 
 
@@ -236,32 +234,42 @@
            clear: both;
            display: flex;
            text-align: left;
-           padding right: 40px;
 
            font-size: 20px;
            line-height: 150px;
            margin-right: 150px;
-
-           /*flex-flow: column-wrap;*/
        }
 
        .contactcontent {
+
+        display: flex; 
+        text-align: left; 
+        font-size: 20px; 
+        line-height: 30px; 
+        margin: 0; }
+
+        .regpagecontent {
            display: flex;
+          width: 100px;    
+         
+        }
 
-           text-align: left;
-           padding right: 40px;
 
+         form {
+
+          line-height: 25px;
+           padding-top: 60px;
+
+          /* margin-right: 300px;*/
+           margin-left: 120px;
+           text-align: justify;
            font-size: 20px;
-           line-height: 30px;
-
-           margin: 0;
-       }
-
+         }
 
        #rules {
            margin-right: 150px;
            margin-left: 120px;
-           line-height: 30px;
+           line-height: 25px;
            text-align: justify;
        }
 
@@ -311,15 +319,14 @@
        }
 
 
-#rules {
-    line-height: 25px;
-    float:left;
-   /*  width:1000px;*/
-   overflow-y: auto;
-   padding-right: 15px;
-      height: 900px;
-
-}
+       #rules {
+           line-height: 25px;
+           float: left;
+           /*  width:1000px;*/
+           overflow-y: auto;
+           padding-right: 15px;
+           height: 900px;
+       }
 
 
        #text {
@@ -350,11 +357,11 @@
        ol {
            list-style: decimal;
        }
-       
+
        ol li:before {
-    
-   /* font-weight: bold;*/
-}
+
+           /* font-weight: bold;*/
+       }
 
 
 
@@ -383,7 +390,7 @@
            height: 20px;
        }
 
-     
+
 
        th {
 
@@ -403,7 +410,7 @@
 
        #october {
            text-align: center;
-            margin-bottom: 60px;
+           margin-bottom: 60px;
        }
 
        .loc {
@@ -426,7 +433,7 @@
        }
 
        #bottompart {
-           
+
            line-height: 50px;
            margin-left: 60px;
            margin-right: 70px;
@@ -435,30 +442,80 @@
        #places {
            text-align: left;
 
-           
+
            margin-left: 60px;
+       }
+
+       #contactinfo {
+           display: flex;
+           justify-content: space-between;
+       }
+
+       input[type=text] {
+           border: none;
+           border-bottom: 1px solid black;
+           padding: 5px;
+       }
+
+
+       sup {
+           vertical-align: super;
+           font-size: smaller;
+       }
+
+       .map {
+           height: 264px;
+           padding-top: 15px;
+           padding-bottom: 70px;
+       }
+
+
+       #smallschrift {
+
+        line-height: 20px;
+        margin-right: 250px;
 
        }
 
-#contactinfo {
-    display: flex;
-    justify-content: space-between;
+
+h3 {
+  padding-top: 20px;
+}
+
+h6 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+} 
+
+      input[type=submit] {
+    background-color: #b3c6ff;
+    color: black;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 4px;
 
 }
 
-input[type=text] {
-    border: none;
-    border-bottom: 1px solid black;
+#submit {
+ text-align: center;
+ margin-right: 260px;
+ border-radius: 12px;
 }
 
 
-sup { 
-    vertical-align: super;
-    font-size: smaller;
+
+#formfooter {
+  padding-left: 20px;
+  padding-top: 40px;
 }
 
-.map {
-  height: 264px;
-  padding-top: 15px;
-  padding-bottom: 70px;
+
+select {
+  font-size: 15px;
+  background: #b3c6ff;
 }
+

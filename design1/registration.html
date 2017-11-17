@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>NYSL Game Information</title>
+    <title>NYSL Registration</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -21,7 +21,7 @@
             <h2>Register Now</h2>
         </div>
     </header>
-    <div class="homepagecontent">
+    <div class="regpagecontent">
         <aside id="mainnavigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -32,49 +32,52 @@
                 <li id="activelink"><a href="registration.html">Registration</a></li>
             </ul>
         </aside>
-        <form>
+        <form action="show_data.html" target="_blank" method="GET">
             Player’s First Name:
-            <input type="text" name="first_name"> Last Name:
-            <input type="text" name="last_name">
+            <input type="text" name="First Name" size="20px"> Last Name:
+            <input type="text" name="Last Name" size="31px">
             </br>
             Street Address:
-            <input type="text" name="street_address">
+            <input type="text" name="Street Address" size="80px">
             </br>
-            City
-            <input type="text" name="city"> Zip Code
-            <input type="text" name="zip">
+            City:
+            <input type="text" name="City" size="50px"> Zip Code:
+            <input type="text" name="Zip Code" size="27px">
             </br>
-            Birth Date (mm/dd/yyyy)
-            <input type="text" name="birth_date"> Gender:
-            <input type="radio" name="gender" value="Female"> Female
-            <input type="radio" name="gender" value="Male"> Male</br>
+            Birth Date (mm/dd/yyyy):
+            <input type="text" name="Birth date" size="20px"> Gender:
+            <input type="radio" name="Gender" value="Female"> Female
+            <input type="radio" name="Gender" value="Male"> Male
+            </br>
             Grade:
-            <input type="text" name="grade">
-            <input type="checkbox" name="grade" value="pre-schooll"> Pre-School
-            <input type="radio" name="grade" value="1st">1<sup>st</sup>
-            <input type="radio" name="grade" value="2nd">2<sup>nd</sup>
-            <input type="radio" name="grade" value="2nd">3<sup>rd</sup>
-            <input type="radio" name="grade" value="2nd">4<sup>th</sup>
-            <input type="radio" name="grade" value="2nd">5<sup>th</sup>
+            <input type="text" name="Grade" size="10px">
+            <input type="checkbox" name="Pre-School" value="Pre-School"> Pre-School
+            <input type="radio" name="Grade" value="1st">1<sup>st</sup>
+            <input type="radio" name="Grade" value="2nd">2<sup>nd</sup>
+            <input type="radio" name="Grade" value="3rd">3<sup>rd</sup>
+            <input type="radio" name="Grade" value="4th">4<sup>th</sup>
+            <input type="radio" name="Grade" value="5th">5<sup>th</sup>
             </br>
-            Parent/Guardian
-            <input type="text" name="parent">
+            Parent/Guardian:
+            <input type="text" name="Parent/Guardian" size="79px">
             </br>
-            Contact Phone
-            <input type="text" name="phone"> Contact E-mail
-            <input type="text" name="e-mail">
+            Contact Phone:
+            <input type="text" name="Contact phone" size="30px"> Contact E-mail:
+            <input type="text" name="E-mail" size="24px">
             <h3>Which elementary scool do you live near?</h3>
             <table>
                 <thead>
                     <tr>
-                        <td>First Closest School: </td>
-                        <td>Second Closest School:</td>
+                        <td>
+                            <h3>First Closest School: </h3></td>
+                        <td>
+                            <h3>Second Closest School:</h3></td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <select name="first-school">
+                            <select name="First School">
                                 <option value="AJK"> AJ Katzenmaier </option>
                                 <option value="MPH"> Marjorie P Hart </option>
                                 <option value="G"> Greenbay </option>
@@ -84,7 +87,7 @@
                             </select>
                         </td>
                         <td>
-                            <select name="second-school">
+                            <select name="Second School">
                                 <option value="AJK"> AJ Katzenmaier </option>
                                 <option value="MPH"> Marjorie P Hart </option>
                                 <option value="G"> Greenbay </option>
@@ -100,88 +103,84 @@
             <table>
                 <tr>
                     <td>
-                        <input type="checkbox" name="position"> Forward</td>
+                        <input type="checkbox" name="Forward"> Forward</td>
                     <td>
-                        <input type="checkbox" name="position"> Midfield</td>
+                        <input type="checkbox" name="Midfield"> Midfield</td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="checkbox" name="position"> Defense</td>
+                        <input type="checkbox" name="Defense"> Defense</td>
                     <td>
-                        <input type="checkbox" name="position"> Goalkeeper</td>
+                        <input type="checkbox" name="Goalkeeper"> Goalkeeper</td>
                 </tr>
             </table>
             <h3>What position(s) do you want to play? (check all that apply)</h3>
             <table>
                 <tr>
                     <td>
-                        <input type="checkbox" name="position"> Forward</td>
+                        <input type="checkbox" name="Forward"> Forward</td>
                     <td>
-                        <input type="checkbox" name="position"> Midfield</td>
+                        <input type="checkbox" name="Midfield"> Midfield</td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="checkbox" name="position"> Defense</td>
+                        <input type="checkbox" name="Defense"> Defense</td>
                     <td>
-                        <input type="checkbox" name="position"> Goalkeeper</td>
+                        <input type="checkbox" name="Goalkeeper"> Goalkeeper</td>
                 </tr>
             </table>
-            <h3><input type="checkbox"> Already Have a Uniform</h3>
+            <h3><input type="checkbox" name="Already have a uniform"> Already Have a Uniform</h3>
             <table>
                 <thead>
                     <tr>
-                        <td colspan="2">Jersey Size:</td>
-                        <td>Shorts Size:</td>
+                        <td>
+                            <h3>Jersey Size:</h3></td>
+                        <td>
+                            <h3>Shorts Size:</h3></td>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>
-                            <input type="checkbox" name="size"> Youth Small </td>
+                            <select name="Jersey size">
+                                <option> Youth Small </option>
+                                <option> Youth Medium </option>
+                                <option> Youth Large </option>
+                                <option> Small </option>
+                                <option> Medium </option>
+                                <option> Large </option>
+                                <option> Extra-Large </option>
+                            </select>
+                        </td>
                         <td>
-                            <input type="checkbox" name="size"> Medium </td>
-                        <td>
-                            <input type="checkbox" name="size"> Youth Small </td>
-                        <td>
-                            <input type="checkbox" name="size"> Medium </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="size"> Youth Medium </td>
-                        <td>
-                            <input type="checkbox" name="size"> Large </td>
-                        <td>
-                            <input type="checkbox" name="size"> Youth Medium </td>
-                        <td>
-                            <input type="checkbox" name="size"> Large </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="checkbox" name="size"> Youth Large </td>
-                        <td>
-                            <input type="checkbox" name="size"> Extra-Large </td>
-                        <td>
-                            <input type="checkbox" name="size"> Youth Large </td>
-                        <td>
-                            <input type="checkbox" name="size"> Extra-Large </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <input type="checkbox"> Small</td>
-                        <td colspan="2">
-                            <input type="checkbox"> Small</td>
+                            <select name="Shorts size">
+                                <option> Youth Small </option>
+                                <option> Youth Medium </option>
+                                <option> Youth Large </option>
+                                <option> Small </option>
+                                <option> Medium </option>
+                                <option> Large </option>
+                                <option> Extra-Large </option>
+                            </select>
+                        </td>
                     </tr>
                 </tbody>
             </table>
             <h6> Permission to play</h6>
-            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
-            <p>By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
-            <div id="formfooter">
-                Parent/Guardian Signature:
-                <input type="text"> Date:
-                <input type="text">
+            <div id="smallschrift">
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+                <p>By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+                <div id="formfooter">
+                    Parent/Guardian Signature:
+                    <input type="text">
+                    </br>
+                    Date:
+                    <input type="text">
+                </div>
             </div>
-            <input id="submit-button" type="submit">
+            <div id="submit">
+                <input type="submit">
+            </div>
         </form>
     </div>
 </body>
