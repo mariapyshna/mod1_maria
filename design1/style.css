@@ -3,337 +3,449 @@
    License: none (public domain)
 */
 
-        html,
-        body,
-        div,
-        span,
-        applet,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        a,
-        abbr,
-        acronym,
-        address,
-        big,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        img,
-        ins,
-        kbd,
-        q,
-        s,
-        samp,
-        small,
-        strike,
-        strong,
-        sub,
-        sup,
-        tt,
-        var,
-        b,
-        u,
-        i,
-        center,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        table,
-        caption,
-        tbody,
-        tfoot,
-        thead,
-        tr,
-        th,
-        td,
-        article,
-        aside,
-        canvas,
-        details,
-        embed,
-        figure,
-        figcaption,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        output,
-        ruby,
-        section,
-        summary,
-        time,
-        mark,
-        audio,
-        video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        } 
+       html,
+       body,
+       div,
+       span,
+       applet,
+       object,
+       iframe,
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6,
+       p,
+       blockquote,
+       pre,
+       a,
+       abbr,
+       acronym,
+       address,
+       big,
+       cite,
+       code,
+       del,
+       dfn,
+       em,
+       img,
+       ins,
+       kbd,
+       q,
+       s,
+       samp,
+       small,
+       strike,
+       strong,
+       sub,
+       sup,
+       tt,
+       var,
+       b,
+       u,
+       i,
+       center,
+       dl,
+       dt,
+       dd,
+       /*        ol,
+        ul,*/
 
-        article,
-        aside,
-        details,
-        figcaption,
-        figure,
-        footer,
-        header,
-        hgroup,
-        menu,
-        nav,
-        section {
-            display: block;
-        }
+       li,
+       fieldset,
+       form,
+       label,
+       legend,
+       table,
+       caption,
+       tbody,
+       tfoot,
+       thead,
+       tr,
+       th,
+       td,
+       article,
+       aside,
+       canvas,
+       details,
+       embed,
+       figure,
+       figcaption,
+       footer,
+       header,
+       hgroup,
+       menu,
+       nav,
+       output,
+       ruby,
+       section,
+       summary,
+       time,
+       mark,
+       audio,
+       video {
+           margin: 0;
+           padding: 0;
+           border: 0;
+           font-size: 100%;
+           font: inherit;
+           vertical-align: baseline;
+       }
 
-        body {
-            line-height: 1;
-        }
+       article,
+       aside,
+       details,
+       figcaption,
+       figure,
+       footer,
+       header,
+       hgroup,
+       menu,
+       nav,
+       section {
+           display: block;
+       }
 
-        ol,
-        ul {
-            list-style: none;
-        }
+       body {
+           line-height: 1;
+       }
 
-        blockquote,
-        q {
-            quotes: none;
-        }
+       ol,
+       ul {
+           list-style: none;
+       }
 
-        blockquote:before,
-        blockquote:after,
-        q:before,
-        q:after {
-            content: '';
-            content: none;
-        }
+       blockquote,
+       q {
+           quotes: none;
+       }
 
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
+       blockquote:before,
+       blockquote:after,
+       q:before,
+       q:after {
+           content: '';
+           content: none;
+       }
 
-        /* Begging of my code*/
+       table {
+           border-collapse: collapse;
+           border-spacing: 0;
+       }
+       /* Begging of my code*/
 
+       body {
 
-
-
-        body {
-
-            background-color: rgb(248, 248, 248);
-            margin: 80px 10px 50px 10px;
-
-           
-        }
+           background-color: rgb(248, 248, 248);
+           margin: 80px 10px 50px 10px;
+           font-family: sans-serif;
+       }
 
 
-        h1 {
-            font-family: "Times New Roman", sans-serif;
-            font-size: 70px;
-            font-weight: bold;
-            color: black;
-            padding-left: 5px;
-        }
+       h1 {
+           font-family: "sans-serif";
+           font-size: 70px;
+           font-weight: bold;
+           color: black;
+           padding-left: 5px;
+       }
 
 
-        #headingandimage {
-            height: 250px;
-          /*  width: 1100px;*/
-            display: flex;
-            flex-direction: row;
-         /*   margin: 0px 10px 0px 160px;*/
-            background-image: url("design1_image1.jpeg");
-            background-size: cover;
-        }
+       #headingandimage {
+           height: 250px;
+           /*  width: 1100px;*/
+           display: flex;
+           flex-direction: row;
+           /*   margin: 0px 10px 0px 160px;*/
+           background-image: url("images/design1_image1.jpeg");
+           background-size: cover;
+       }
 
 
 
 
-        #h2 {
+       h2 {
 
-            color: white;
+           color: white;
 
-            font-size: 40px;
-         /*   padding-left: 340px;*/
-
-            font-weight: bold;
-            background: black;
-            text-align: center;
-            padding: 4px;
-            /*margin-left: 160px;
+           font-size: 40px;
+           /*   padding-left: 340px;*/
+           font-weight: bold;
+           background: black;
+           text-align: center;
+           padding: 4px;
+           /*margin-left: 160px;
             margin-right: 180px;*/
-        }
+       }
 
-        h3 {
-            font-weight: bold;
-        }
-
-
-        a {
+       h3 {
+           font-weight: bold;
+       }
 
 
-            color: darkblue;
-           
-
-        }
-
-        li a {
-             text-decoration: none;
-
-        }
-
-        a:hover {
-
-            color: grey;
-        }
-
-       
+       a {
 
 
+           color: darkblue;
+       }
 
-.homepagecontent {
-            
-          /*  margin: 0;*/
-            display: flex;
-            text-align: left;
+       li a {
+           text-decoration: none;
+       }
 
-            padding right: 40px;
-            padding-left: 40px;
-           
-            font-size: 20px;
-            line-height: 150px;
-         /*   flex-flow: column-wrap;*/
-            
-        }
+       a:hover {
 
-        .aboutcontent {
-            clear: both;
-            display: flex;
-            text-align: left;
+           color: grey;
+       }
+
+
+       h4 {
+           text-align: center;
+           padding: 50px;
+          
+           font-size: 24px;
+       }
+
+
+       h5 {
+           font-weight: bold;
+           line-height: 0;
+          
+       }
+
+
+       .homepagecontent {
+
+           /*  margin: 0;*/
+           display: flex;
+           text-align: left;
+
+
+           /*  padding-left: 40px;*/
+           font-size: 20px;
+           /* line-height: 150px;*/
+           margin-right: 190px
+       }
+
+
+
+
+
+       .aboutcontent {
+           clear: both;
+           display: flex;
+           text-align: left;
            padding right: 40px;
-            padding-left: 40px;
 
-            font-size: 20px;
-            line-height: 150px;
-            margin: 0;
+           font-size: 20px;
+           line-height: 150px;
+           margin-right: 150px;
 
-            /*flex-flow: column-wrap;*/
-          
-        }
+           /*flex-flow: column-wrap;*/
+       }
 
-        .contactcontent {
-            display: flex;
-           /* flex-flow: row;*/
-            text-align: left;
-              padding right: 40px;
-            padding-left: 40px;
-            
-            
-            font-size: 20px;
-            line-height: 100px;
-           /* flex-flow: column-wrap;*/
-            margin: 0;
-        }
+       .contactcontent {
+           display: flex;
+
+           text-align: left;
+           padding right: 40px;
+
+           font-size: 20px;
+           line-height: 30px;
+
+           margin: 0;
+       }
 
 
+       #rules {
+           margin-right: 150px;
+           margin-left: 120px;
+           line-height: 30px;
+           text-align: justify;
+       }
+
+       #logo {
+
+           padding-right: 180px;
+           margin-top: -75px;
+           margin-bottom: 0;
+           float: right;
+           opacity: 1;
+           filter: alpha(opacity=100);
+           position: absolute;
+           right: 50px;
+       }
+
+       #logo:hover {
+           opacity: 0.8;
+           filter: alpha(opacity=70);
+       }
 
 
-        #logo {
 
-            padding-right: 180px;
-            margin-top: -75px;
-            margin-bottom: 0;
-            float: right;
-            opacity: 1;
-            filter: alpha(opacity=100);
-            position: absolute;
-            right: 50px;
-          
-        }
+       #mainnavigation {
+           text-align: left;
+           font-size: 20px;
+           line-height: 110px;
+           min-width: 250px;
+           text-decoration: none;
+       }
 
-        #logo:hover {
-            opacity: 0.8;
-            filter: alpha(opacity=70);
-        }
+
+       #activelink {
+           text-decoration: underline;
+       }
 
 
 
-        #mainnavigation {
-            text-align: left;
-            font-size: 20px;
-            line-height: 150px;
-            min-width: 200px;
-            text-decoration: none;
-        }
-
-
-        #activelink {
-            text-decoration: underline;
-        }
-
-       
-
-        article {
-          /*  display: flex;
+       article {
+           /*  display: flex;
             flex-flow: column;*/
-            /*padding-left: 70px;*/
+           /*padding-left: 70px;*/
+       }
 
-        }
-
-        .month {
-            font-style: italic;
-            padding-top: 50px;
-
-        }
+       .month {
+           font-style: italic;
+           padding-top: 50px;
+       }
 
 
+#rules {
+    line-height: 25px;
+    float:left;
+   /*  width:1000px;*/
+   overflow-y: auto;
+   padding-right: 15px;
+      height: 900px;
+
+}
 
 
+       #text {
+           line-height: 30px;
+           padding-top: 60px;
 
-        #text {
-            line-height: 50px;
-            padding-top: 50px;
-            padding-right: 85px;
-           /*  position: relative;
-            left: 100px;
-            */
-         /*  display: flex;*/
-          /* flex-flow: column;*/
-            
-        }
+           margin-right: 190px;
+           margin-left: 120px;
+           text-align: justify;
+       }
 
-        #schedule {
-            line-height: 50px;
+       #schedule {
+           line-height: 30px;
+           margin-right: 190px;
+           margin-left: 120px;
            /* display: flex;*/
-            /*flex-flow: column;*/
-        }
+           /*flex-flow: column;*/
+       }
 
-        #contact {
-          padding-top: 25px;
+       #contact {
+           padding-top: 60px;
+           margin-right: 190px;
+           margin-left: 120px;
+       }
 
-        }
-/* 
-- formatting of this file can be improved
-- rethink naming conventions. I would recomment dash-spacing. 
-- #mainnavigation becomes #main-navigation (better to read)
-*/
+
+
+       ol {
+           list-style: decimal;
+       }
+       
+       ol li:before {
+    
+   /* font-weight: bold;*/
+}
+
+
+
+
+
+
+       table {
+           table-layout: fixed;
+           border-collapse: collapse;
+           width: 930px;
+       }
+
+       td {
+
+
+
+           /*   text-align: center;*/
+           vertical-align: middle;
+       }
+
+
+
+
+
+       tr {
+           height: 20px;
+       }
+
+     
+
+       th {
+
+           padding: 0px;
+           border-spacing: 2px;
+
+           height: 25px;
+       }
+
+
+
+       #september {
+           text-align: center;
+           margin-bottom: 30px;
+       }
+
+
+       #october {
+           text-align: center;
+            margin-bottom: 60px;
+       }
+
+       .loc {
+           text-align: left;
+       }
+
+       caption {
+           text-align: left;
+           padding-top: 30px;
+           padding-bottom: 40px;
+           font-style: italic;
+           text-decoration: underline;
+           margin-left: 50px;
+       }
+
+       #fall {
+           padding-top: 20px;
+           margin-left: 50px;
+           font-style: italic;
+       }
+
+       #bottompart {
+           padding-top: 40px;
+           line-height: 50px;
+           margin-left: 60px;
+           margin-right: 70px;
+       }
+
+       #places {
+           text-align: left;
+
+           padding-bottom: 60px;
+           margin-left: 60px;
+
+       }
+
+#contactinfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+

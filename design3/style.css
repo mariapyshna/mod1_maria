@@ -136,11 +136,13 @@
 
        body {
 
-           margin: 30px 20px 50px 20px;
-           padding-bottom: 30px;
-           border-style: solid;
-           border-color: black;
-           border-width: 1px;
+           /*margin: 30px 20px 50px 20px;
+           padding-bottom: 30px;*/
+          /* border-style: solid;
+           border-color: black;*/
+          /* border-width: 1px;*/
+           background-image: url(image.jpg);
+
        }
 
 
@@ -154,7 +156,7 @@
            padding-bottom: 5px;
            position: absolute;
            left: 170px;
-           top: 60px;
+           top: 40px;
        }
 
 
@@ -184,6 +186,7 @@
            border-width: 1px;
            border-color: black;
            margin-right: 150px;
+           margin-top: 20px;
 
 
 
@@ -212,9 +215,10 @@
        #girl {
 
 
-           margin-top: 20px;
-           width: 440px;
-           height: 300px;
+          
+           
+           width: 100%;
+           padding: 10px;
        }
 
 
@@ -222,25 +226,40 @@
        #pagecontent {
 
            margin-left: 145px;
+           margin-top: 0px;
+
            
        }
 
-       #photoandtext {
-           display: flex;
-       }
+
 
        ul.dates {
-
+          
            line-height: 40px;
            margin-top: 20px;
+           padding-right: 10px;
            text-align: left;
+
        }
+       #photoandtext {
+           display: flex;
+           background-color: white;
+           opacity: 1;
+           right: 100px;
+           margin-right: 151px;
+           margin-left: 460px;
+           margin-top: 20px;
+           border-radius: 15px;
+       }
+
+
+
 
 
        .event {
            text-align: left;
            padding-left: 30px;
-           font-size: 25px;
+           font-size: 20px;
        }
 
        .month {
@@ -262,15 +281,15 @@
 
        #text {
            line-height: 25px;
-           padding-left: 8px;
+           padding: 10px;
+
        }
 
 
        #contact {
            font-size: 25px;
            line-height: 50px;
-           padding-left: 30px;
-           padding-top: 20px;
+           padding: 10px;
        }
 
 
@@ -282,7 +301,7 @@
        }
 
        p {
-           padding-right: 150px;
+           padding-right: 10px;
            padding-left: 10px;
-           font-size: 17px;
+           font-size: 18px;
        }
