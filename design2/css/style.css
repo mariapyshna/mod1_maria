@@ -157,7 +157,7 @@
            display: inline-block;
            flex-direction: column;
            /* margin: 0px 10px 0px 160px;*/
-           background-image: url("design1_image1.jpeg");
+           background-image: url("../img/design1_image1.jpeg");
            background-size: cover;
            background-image height: 800px;
            width: 1400px;
