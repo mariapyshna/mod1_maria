@@ -149,7 +149,7 @@ joinColors(myColors, "//");
 function reverseNumber(input) {
 
     if (isNaN(input)) {
-        console.log( input + " is not a number")
+        console.log(input + " is not a number")
     } else {
 
         var reversedNumber = input.toString().split("").reverse().join("");
@@ -157,11 +157,48 @@ function reverseNumber(input) {
 
 
     }
-
-
-
 }
 
 
 
 reverseNumber("tel");
+
+
+
+
+
+///////task 9
+
+
+function azString (input) {
+	var newString = input.split("").sort().join("");
+	console.log(newString)
+}
+azString("free")
+
+
+///////// task 10
+
+function findLongestWord (sentence) {
+	var splitWords = sentence.split(" ");
+
+	// for (var i = 0; i < splitWords.length; i++) {
+	// 	console.log(splitWords[i].length) 
+	
+
+	// }
+	splitWords.sort(function(a, b) { return a.length - b.length });
+	console.log(splitWords[splitWords.length - 1])
+
+
+};   findLongestWord ("Falafel and Hummus");
+
+
+
+
+
+
+
+
+
+
