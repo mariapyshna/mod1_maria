@@ -62,6 +62,14 @@ for (i = 0; i < classmatesAge.length; i++) {
 };
 
 
+
+
+
+
+
+
+
+
 // task 6
 
 
@@ -109,13 +117,22 @@ elementOnPosition(exampleArray2, 1)
 function repeatedFinder(arr) {
     // sort
     // store the results into new arr
-    for (var i = 0; i < arr.length; i++) {
-        var x = arr.sort(function(a, b) { return b - a });
-        if (x == 0) {
-            console.log(x)
-        }
-    }
+    var duplicates = [];
+    arr.forEach(function(element, index){
+    	if (arr.indexOf(element, index + 1) > -1) {
+    		if (duplicates.indexOf(element) == -1) {
+    			duplicates.push(element);
+    		}
+    	}
+    })
+ console.log("The repeating number are " + duplicates)
+    
 };
+
+  
+
+
+
 
 // for (var i = 0; i < x.length; i++) {
 // 	x[i]
@@ -126,7 +143,19 @@ function repeatedFinder(arr) {
 // print double
 
 
-repeatedFinder(exampleArray2)
+repeatedFinder(exampleArray2);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -170,35 +199,26 @@ reverseNumber("tel");
 ///////task 9
 
 
-function azString (input) {
-	var newString = input.split("").sort().join("");
-	console.log(newString)
+function azString(input) {
+    var newString = input.split("").sort().join("");
+    console.log(newString)
 }
 azString("free")
 
 
 ///////// task 10
 
-function findLongestWord (sentence) {
-	var splitWords = sentence.split(" ");
+function findLongestWord(sentence) {
+    var splitWords = sentence.split(" ");
 
-	// for (var i = 0; i < splitWords.length; i++) {
-	// 	console.log(splitWords[i].length) 
-	
-
-	// }
-	splitWords.sort(function(a, b) { return a.length - b.length });
-	console.log(splitWords[splitWords.length - 1])
+    // for (var i = 0; i < splitWords.length; i++) {
+    // 	console.log(splitWords[i].length) 
 
 
-};   findLongestWord ("Falafel and Hummus");
+    // }
+    splitWords.sort(function(a, b) { return a.length - b.length });
+    console.log(splitWords[splitWords.length - 1])
 
 
-
-
-
-
-
-
-
-
+};
+findLongestWord("Falafel and Hummus");
