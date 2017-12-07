@@ -22,3 +22,18 @@ else if (ageDiff < 0) {
 else {
 	console.log("I am as old as the average")
 };
+
+
+// task 4
+
+var classmates = ["Maria", "Jaron", "Konrad", "Schmulik", "Micha"];
+console.log(classmates);
+classmates.sort();
+
+console.log(classmates[0]);
+console.log(classmates[classmates.length -1]);
+console.log("###");
+
+for (i = 0; i < classmates.length; i++) { 
+    console.log(classmates[i])
+};
